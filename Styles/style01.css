@@ -1,0 +1,79 @@
+div.MainImg > img
+{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+body
+{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+ul.Menu
+{
+    list-style-type: none;
+    position: relative;
+    top: -1088px;
+    left: 0;
+    z-index: 10;
+}
+ul.Menu > li
+{
+    display: inline-block;
+    margin: 4px;
+}
+ul.Menu li> a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav.Top
+{
+    width: 100%;
+    background-color: rgba(78, 226, 255,.4);
+    top: -965px;
+    left: 0;
+    position: relative;
+    z-index: 0;
+}
+nav.Top > p
+{
+    color: white;
+    font-size: 70px;
+    font-family: Arial;
+    text-align: center;
+}
+nav.Rooms
+{
+    position: relative;
+    background-color: #00AAC6;
+    width: 100%;
+    top: -300px;
+    margin: 0;
+}
+nav.Rooms > p
+{
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+div.Pokoje > img
+{
+    border: black solid 2px;
+    display: inline-block;
+    margin: 5px;
+    width: 25%;
+    height: 25%;
+}
+div.Pokoje
+{
+    position: relative;
+}
