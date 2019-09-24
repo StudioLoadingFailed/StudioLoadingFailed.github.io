@@ -96,3 +96,17 @@ button.Button:hover
     color: #00AAC6;
     cursor: pointer;
 }
+nav.Bottom
+{
+    width: 100%;
+    background-color: rgba(78, 226, 255);
+    position: relative;
+}
+nav.Bottom > p
+{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}

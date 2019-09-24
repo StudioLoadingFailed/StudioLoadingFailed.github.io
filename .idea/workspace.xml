@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e0985e4-ac47-4ad8-bb03-902ebb14fdb3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Pokoje.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/DisplayDate.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Scripts/openPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/style01.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/style01.css" afterDir="false" />
@@ -94,6 +95,7 @@
       <workItem from="1568810866582" duration="2132000" />
       <workItem from="1569317940707" duration="2933000" />
       <workItem from="1569322096460" duration="909000" />
+      <workItem from="1569327841046" duration="2935000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1568796778402</created>
