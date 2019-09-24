@@ -81,7 +81,7 @@ div.ButtonClass
 }
 div.ButtonClass > button
 {
-    top: -670px;
+    top: -250px;
     background-color: white;
     border: black solid 3px;
     color: black;
@@ -109,4 +109,20 @@ nav.Bottom > p
     margin: 0;
     padding: 5px;
     text-align: center;
+}
+ul.PricesUl > li
+{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 280px;
+    font-weight: bold;
+    border-bottom: black solid 2px;
+}
+ul.PricesUl
+{
+    list-style-type: none;
+    top: -710px;
+    position: relative;
+    left: 13px;
 }
