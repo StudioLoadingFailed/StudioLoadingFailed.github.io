@@ -1,6 +1,6 @@
 div.MainImg > img
 {
-    margin-top: -205px;
+    top: -268px;
     position: relative;
     width: 100%;
     z-index: -10;
@@ -13,7 +13,7 @@ body
 }
 ul.Menu
 {
-    margin-top: -128px;
+    top: -193px;
     list-style-type: none;
     position: relative;
     z-index: 10;
@@ -33,7 +33,7 @@ ul.Menu li> a
 }
 nav.Top
 {
-    margin-top: -69px;
+    top: -69px;
     width: 100%;
     background-color: rgba(78, 226, 255,.4);
     position: relative;
@@ -48,6 +48,7 @@ nav.Top > p
 }
 nav.Rooms
 {
+    top: -312px;
     position: relative;
     background-color: #00AAC6;
     width: 100%;
@@ -59,14 +60,12 @@ nav.Rooms > p
     text-align: center;
     color: white;
     padding: 15px;
-    margin-top: -35px;
 }
 div.Pokoje > img
 {
     border: #D6D6D6 solid 2px;
     display: inline-block;
     margin: 5px;
-    margin-top: 30px;
     width: 25%;
     height: 25%;
 }
@@ -74,9 +73,15 @@ div.Pokoje
 {
     text-align: center;
     position: relative;
+    top: -255px;
 }
-.Button
+div.ButtonClass
 {
+    text-align: center;
+}
+div.ButtonClass > button
+{
+    top: -670px;
     background-color: white;
     border: black solid 3px;
     color: black;
