@@ -1,6 +1,6 @@
 div.MainImg > img
 {
-    top: -268px;
+    top: -14vw;
     position: relative;
     width: 100%;
     z-index: -10;
@@ -10,10 +10,11 @@ body
     background-color: white;
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 ul.Menu
 {
-    top: -193px;
+    top: -10vw;
     list-style-type: none;
     position: relative;
     z-index: 10;
@@ -27,13 +28,12 @@ ul.Menu li> a
 {
     text-decoration: none;
     color: white;
-    font-family: Arial;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 nav.Top
 {
-    top: -69px;
+    top: -3.7vw;
     width: 100%;
     background-color: rgba(78, 226, 255,.4);
     position: relative;
@@ -42,30 +42,28 @@ nav.Top
 nav.Top > p
 {
     color: white;
-    font-size: 70px;
-    font-family: Arial;
+    font-size: 3.7vw;
     text-align: center;
 }
 nav.Rooms
 {
-    top: -312px;
+    top: -16vw;
     position: relative;
     background-color: #00AAC6;
     width: 100%;
+    text-align: center;
 }
 nav.Rooms > p
 {
-    font-family: Arial;
-    font-size: 40px;
-    text-align: center;
+    font-size: 1.8vw;
     color: white;
     padding: 15px;
 }
 div.Pokoje > img
 {
-    border: #D6D6D6 solid 2px;
+    border: #D6D6D6 solid 0.2vw;
     display: inline-block;
-    margin: 5px;
+    margin: 0.8vw;
     width: 25%;
     height: 25%;
 }
@@ -73,7 +71,7 @@ div.Pokoje
 {
     text-align: center;
     position: relative;
-    top: -255px;
+    top: -16.5vw;
 }
 div.ButtonClass
 {
@@ -81,48 +79,41 @@ div.ButtonClass
 }
 div.ButtonClass > button
 {
-    top: -250px;
+    top: -16.5vw;
     background-color: white;
-    border: black solid 3px;
+    border: black solid 0.15vw;
     color: black;
-    padding: 10px;
-    font-size: 30px;
+    padding: 0.5vw;
+    font-size: 1.6vw;
     position: relative;
-    border-radius: 8px;
+    border-radius: 0.7vw;
 }
 button.Button:hover
 {
-    border: #00AAC6 solid 3px;
+    border: #00AAC6 solid 0.15vw;
     color: #00AAC6;
     cursor: pointer;
 }
 nav.Bottom
 {
     width: 100%;
-    background-color: rgba(78, 226, 255);
+    background-color: #00AAC6;
     position: relative;
 }
 nav.Bottom > p
 {
-    font-size: 20px;
+    font-size: 1vw;
     color: white;
     margin: 0;
-    padding: 5px;
+    padding: 0.1vw;
     text-align: center;
 }
-ul.PricesUl > li
+.Gallery
 {
-    display: inline-block;
-    font-family: Arial;
-    font-size: 25px;
-    margin-left: 280px;
-    font-weight: bold;
-    border-bottom: black solid 2px;
+    float: left;
 }
-ul.PricesUl
+.Gallery > img
 {
-    list-style-type: none;
-    top: -710px;
-    position: relative;
-    left: 13px;
+    width: 50%;
+    height: auto;
 }

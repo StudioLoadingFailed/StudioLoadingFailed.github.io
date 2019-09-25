@@ -1,14 +1,15 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Styles/style01.css">
     <title>Travelo</title>
+    <script src="Scripts/page.js"></script>
 </head>
 <body>
 <header>
     <nav class="Top">
-    <p>Welcome to Travelo</p>
+        <p>Welcome to Travelo</p>
     </nav>
     <ul class="Menu">
         <li><a href="">Pokoje</a></li>
@@ -20,29 +21,25 @@
         <img src="Pictures/1.png" alt="Hotel" id="MainImage">
     </div>
 </header>
-    <nav class="Rooms">
-        <p>Rezervace pokoje</p>
-    </nav>
-    <div class="Pokoje">
-        <img src="Pictures/3hvfull.png" alt="">
-        <img src="Pictures/4hvfull.png" alt="">
-        <img src="Pictures/bedroom1.png" alt="">
-    </div>
-    <div class="ButtonClass">
-        <button type="button" class="Button" onclick="openPokoje()">Rezervovat pokoj</button>
-    </div>
-    <div class="Prices">
-        <ul class="PricesUl">
-            <li>Price 2000,-Kč/Den</li>
-            <li>Price 2500,-Kč/Den</li>
-            <li>Price 3000.-Kč/Den</li>
-        </ul>
-    </div>
-    <nav class="Bottom">
-        <p id="Date"></p>
-    </nav>
+<nav class="Rooms">
+    <p>Rezervace pokoje</p>
+</nav>
+<div class="Pokoje">
+    <img src="Pictures/3hvfull.png" alt="">
+    <img src="Pictures/4hvfull.png" alt="">
+    <img src="Pictures/bedroom1.png" alt="">
+</div>
+<div class="ButtonClass">
+    <button type="button" class="Button" onclick="openPokoje()">Rezervovat pokoj</button>
+</div>
+<nav class="Rooms">
+    <p>Restaurace</p>
+</nav>
+<nav class="Bottom">
+    <p id="Date"></p>
+</nav>
 </body>
-    <script src="Scripts/imageChanger.js"></script>
-    <script src="Scripts/openPage.js"></script>
-    <script src="Scripts/DisplayDate.js"></script>
+<script src="Scripts/imageChanger.js"></script>
+<script src="Scripts/openPage.js"></script>
+<script src="Scripts/DisplayDate.js"></script>
 </html>

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e0985e4-ac47-4ad8-bb03-902ebb14fdb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pokoje.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/DisplayDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/openPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/style02.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/style01.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/style01.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -62,13 +60,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="Pokoje.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Hotel/Pokoje.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Hotel/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.Pokoje.html" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +98,12 @@
       <workItem from="1569317940707" duration="2933000" />
       <workItem from="1569322096460" duration="909000" />
       <workItem from="1569327841046" duration="3041000" />
-      <workItem from="1569331264884" duration="833000" />
+      <workItem from="1569331264884" duration="975000" />
+      <workItem from="1569391504981" duration="1811000" />
+      <workItem from="1569394406995" duration="590000" />
+      <workItem from="1569397377243" duration="26000" />
+      <workItem from="1569401590807" duration="876000" />
+      <workItem from="1569432266232" duration="4247000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1568796778402</created>
@@ -105,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568796778402</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SomeUpdates">
+      <created>1569402271321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569402271321</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SomeUpdates">
+      <created>1569402419056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569402419056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="SomeUpdates" />
+    <option name="LAST_COMMIT_MESSAGE" value="SomeUpdates" />
   </component>
 </project>
