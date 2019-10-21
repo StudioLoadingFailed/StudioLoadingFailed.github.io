@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e0985e4-ac47-4ad8-bb03-902ebb14fdb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Styles/style02.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/DisplayDate.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/style01.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/style01.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -103,7 +103,16 @@
       <workItem from="1569394406995" duration="590000" />
       <workItem from="1569397377243" duration="26000" />
       <workItem from="1569401590807" duration="876000" />
-      <workItem from="1569432266232" duration="4247000" />
+      <workItem from="1569432266232" duration="4549000" />
+      <workItem from="1569440941846" duration="91000" />
+      <workItem from="1569441184015" duration="340000" />
+      <workItem from="1569488950024" duration="6455000" />
+      <workItem from="1569570963993" duration="275000" />
+      <workItem from="1569831866823" duration="673000" />
+      <workItem from="1570437012533" duration="2197000" />
+      <workItem from="1570454227782" duration="217000" />
+      <workItem from="1570873632023" duration="4635000" />
+      <workItem from="1571216544647" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1568796778402</created>
@@ -126,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569402419056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Some fix update">
+      <created>1569436576348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569436576349</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="SomeUpdates" />
-    <option name="LAST_COMMIT_MESSAGE" value="SomeUpdates" />
+    <MESSAGE value="Some fix update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some fix update" />
   </component>
 </project>

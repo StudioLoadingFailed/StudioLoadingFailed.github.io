@@ -1,6 +1,6 @@
 div.MainImg > img
 {
-    top: -14vw;
+    top: -15vw;
     position: relative;
     width: 100%;
     z-index: -10;
@@ -14,7 +14,7 @@ body
 }
 ul.Menu
 {
-    top: -10vw;
+    top: -10.3vw;
     list-style-type: none;
     position: relative;
     z-index: 10;
@@ -22,14 +22,14 @@ ul.Menu
 ul.Menu > li
 {
     display: inline-block;
-    margin: 4px;
+    margin: 0.3vw;
 }
 ul.Menu li> a
 {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 nav.Top
 {
@@ -47,7 +47,7 @@ nav.Top > p
 }
 nav.Rooms
 {
-    top: -16vw;
+    top: -17vw;
     position: relative;
     background-color: #00AAC6;
     width: 100%;
@@ -57,7 +57,7 @@ nav.Rooms > p
 {
     font-size: 1.8vw;
     color: white;
-    padding: 15px;
+    padding: 1.2vw;
 }
 div.Pokoje > img
 {
@@ -71,7 +71,7 @@ div.Pokoje
 {
     text-align: center;
     position: relative;
-    top: -16.5vw;
+    top: -18vw;
 }
 div.ButtonClass
 {
@@ -79,7 +79,7 @@ div.ButtonClass
 }
 div.ButtonClass > button
 {
-    top: -16.5vw;
+    top: -17.5vw;
     background-color: white;
     border: black solid 0.15vw;
     color: black;
@@ -108,12 +108,93 @@ nav.Bottom > p
     padding: 0.1vw;
     text-align: center;
 }
-.Gallery
+div.Restaurace
 {
-    float: left;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: -13vw;
 }
-.Gallery > img
+div.Restaurace > img
 {
-    width: 50%;
-    height: auto;
+    margin: 0.8vw;
+    width: 25%;
+    height: 25%;
+    border: #D6D6D6 solid 0.2vw;
+}
+div.inner
+{
+    display: flex;
+    position: relative;
+    top: -15vw;
+}
+article.Rezervace
+{
+    position: relative;
+    width: 25%;
+    height: 10%;
+    margin: 1vw;
+    background-color: rgba(78, 226, 255,.7);
+    padding-bottom: 1.8vw;
+    left: 22vw;
+}
+article.Rezervace > h2
+{
+    font-size: 3vw;
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    padding: 1vw;
+    margin-top: 0;
+    margin-bottom: 1.3vw;
+}
+article.Rezervace > a
+{
+    color: white;
+    font-size: 1vw;
+    padding: 1vw;
+    text-decoration: none;
+    margin-left: 10%;
+    background-color: #00AAC6;
+}
+article.Rezervace > a:hover
+{
+    background-color: black;
+}
+div.Open-Open > h2
+{
+    font-size: 2vw;
+    margin-bottom: 0.8vw;
+}
+div.Open-Open > span
+{
+    font-size: 1.5vw;
+}
+.Open
+{
+    position: relative;
+    left: 27vw;
+    top: -1vw;
+}
+.Nabidka1
+{
+    background-color: #00AAC6;
+    color: white;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    border-radius: 0.4vw;
+}
+.Nabidka1 > h2
+{
+    padding: 1.2vw;
+    font-size: 1.6vw;
+    color: white;
+}
+div.Nabidka
+{
+    display: flex;
+    background-color: white;
+    position: relative;
+    top: -12vw;
 }
